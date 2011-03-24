@@ -5,7 +5,9 @@
 #include<fstream>
 #include<iostream>
 #include<algorithm>
+#include "string_op.h"
 using namespace std;
+
 int main()
 {
 //	vector<int> h;
@@ -16,8 +18,9 @@ int main()
 //	cout << h.size() << endl;
 //	for( int i = 0; i < h.size(); i++ )
 //		cout << h[i] << endl;
-	string str = "";
-	str += 'y';
+	string str = "))))))))..).....";
+	cout << str << endl;
+	get_rid_of_dot_suffix( &str );
 	cout << str << endl;
 	return 0;
 }
